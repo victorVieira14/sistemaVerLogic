@@ -22,7 +22,7 @@
     $op = isset($_POST['operador']) ? $_POST['operador']: null;
     $obs = isset($_POST['obs']) ? $_POST['obs']: null;
     $id = isset($_POST['id']) ? $_POST['id'] : null;
-    
+
 
     	// busca os dados du usuário a ser editado
 	$PDO = db_connect();

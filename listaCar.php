@@ -32,6 +32,7 @@
                         $conn = db_connect();
                         $consulta = $conn->query("SELECT * FROM carro");
                     
+
                         while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) {
                             echo "
                                 <tr>
@@ -42,7 +43,7 @@
 
                                     <td>
                                     <a href='form-edit-car.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-primary text-center'>EDITAR</button></a>
-                                    <a href='delete.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-danger text-center'>EXCLUIR</button></a>
+                                    <a href='deleteCar.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-danger text-center'>EXCLUIR</button></a>
                             </td>
                                 </tr>
                             ";
