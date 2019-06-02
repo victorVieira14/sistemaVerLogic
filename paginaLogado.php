@@ -61,8 +61,8 @@ require 'init.php';
 			text-decoration: none;
 		}
 		#m3{
-			color:white;
-			text-decoration: none;
+
+			right:100px;
 		}
 		#m3:hover{
 			color:white;
@@ -144,7 +144,13 @@ require 'init.php';
 				<ul id="nav-mobile" class="left hide-on-med-and-down" style="position:relative;">
 						<li class="active"><a id="m1" href="paginaLogado.php">Home</a></li>
 						<li><a id="m2" href="veiculos.php">Veículos</a></li>
-						<li><a class="d-flex ml-auto" href="form-login.php">Sign out</a></li>
+						<li><a id="m2" href="index.php">Checklist</a></li>
+						<li></li>
+					</ul>
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+							<a id="m3" class="justify-content-end mr-2" href="form-login.php"><i class="fas fa-sign-out-alt mr-2"></i>Sign out</a>
+						</li>
 					</ul>
 
 				<ul id="slide-out" class="sidenav">

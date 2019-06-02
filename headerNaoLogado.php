@@ -132,8 +132,11 @@
 					<ul id="nav-mobile" class="left hide-on-med-and-down">
 						<li class="active"><a id="m1" href="inicialNaoLogado.php">Home</a></li>
 						<li><a id="m2" href="#">Sobre nós</a></li>
-						<li><a id="m3" href="form-login.php">Sign in</a></li>
-
+					</ul>
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+							<a id="m3" class="justify-content-end mr-2" href="form-login.php"><i class="fas fa-sign-in-alt"></i>Sign in</a>
+						</li>
 					</ul>
 
 				<ul id="slide-out" class="sidenav">
