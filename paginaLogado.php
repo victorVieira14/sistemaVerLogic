@@ -145,13 +145,9 @@ require 'init.php';
 						<li class="active"><a id="m1" href="paginaLogado.php">Home</a></li>
 						<li><a id="m2" href="veiculos.php">Veículos</a></li>
 						<li><a id="m2" href="index.php">Checklist</a></li>
-						<li></li>
+						<li><a id="m3" class="justify-content-end mr-2" href="form-login.php"><i class="fas fa-sign-out-alt mr-2"></i>Sign out</a></li>
 					</ul>
-					<ul class="nav justify-content-end">
-						<li class="nav-item">
-							<a id="m3" class="justify-content-end mr-2" href="form-login.php"><i class="fas fa-sign-out-alt mr-2"></i>Sign out</a>
-						</li>
-					</ul>
+
 
 				<ul id="slide-out" class="sidenav">
 					

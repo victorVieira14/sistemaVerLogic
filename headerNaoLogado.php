@@ -131,17 +131,13 @@
 
 					<ul id="nav-mobile" class="left hide-on-med-and-down">
 						<li class="active"><a id="m1" href="inicialNaoLogado.php">Home</a></li>
-						<li><a id="m2" href="#">Sobre nós</a></li>
-					</ul>
-					<ul class="nav justify-content-end">
-						<li class="nav-item">
-							<a id="m3" class="justify-content-end mr-2" href="form-login.php"><i class="fas fa-sign-in-alt"></i>Sign in</a>
-						</li>
+						<li><a id="m2" href="form-add.php"> Cadastre-se</a></li>
+						<li><a id="m3" class="justify-content-end mr-2" href="form-login.php">Sign in</a></li>
+
 					</ul>
 
 				<ul id="slide-out" class="sidenav">
 					<li><a class="waves-effect" href="inicialNaoLogado.php"><i class="fas fa-home"></i> Home</a></li>
-					<li><a class="waves-effect" href="#!"><i class="far fa-address-card"></i>     Sobre nós</a></li>
                     <li><a class="waves-effect" href="form-add.php"><i class="far fa-user"></i>   Cadastre-se</a></li>
 					<li><div class="divider"></div></li>
 					<li><a class="waves-effect" href="form-login.php"><i class="fas fa-sign-in-alt"></i> Sign in</a></li>
