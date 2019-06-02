@@ -39,10 +39,9 @@
                                     <td class='text-center'>{$linha['modfab']}</td>
                                     <td class='text-center'>{$linha['resp']}</td>
                                     <td class='text-center'>{$linha['dataInsp']}</td>
-                                    <td></td>
 
                                     <td>
-                                    <a href='form-edit.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-primary text-center'>EDITAR</button></a>
+                                    <a href='form-edit-car.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-primary text-center'>EDITAR</button></a>
                                     <a href='delete.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-danger text-center'>EXCLUIR</button></a>
                             </td>
                                 </tr>
