@@ -1,7 +1,7 @@
     
 <?php 
 	include_once 'init.php';
-	// pega o ID da URL
+
 	$id = isset($_GET['id']) ? $_GET['id'] : null;
 	 
 	// busca os dados du usuário a ser editado
@@ -77,7 +77,7 @@
                 <table class="table">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <input type="hidden" id="id" value="<?php echo $user['id'] ?>" style="border-bottom: 2px solid #27408B;" name="modelo" class="input-group-text">
+                            <input type="hidden" id="id" value="<?php echo $user['id'] ?>" style="border-bottom: 2px solid #27408B;" name="id" class="input-group-text">
                         </div>
                     </div>
 
@@ -86,7 +86,7 @@
 
                         <div class="col-sm-12 md-12 lg-12">
                             <label for="mod" style="font-size:1em; color:#27408B;"><strong> MOD/FAB do veículo</strong></label>
-                            <input type="text" id="mod" style="border-bottom: 2px solid #27408B;" name="modelo" class="form-control">
+                            <input type="text" id="mod" value="<?php echo $user['modfab'] ?>" style="border-bottom: 2px solid #27408B;" name="modelo" class="form-control">
                         </div>
 
                     </div>
@@ -96,7 +96,7 @@
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="data" style="font-size:1em; color:#27408B;"><strong> Data de inspeção</strong></label>
-                            <input type="date" id="data" style="border-bottom: 2px solid #27408B;" name="inspecao" class="form-control">
+                            <input type="date" id="data" style="border-bottom: 2px solid #27408B;" value="<?php echo $user['dataInsp'] ?>" name="inspecao" class="form-control">
                         </div>
 
                         
@@ -115,25 +115,14 @@
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Luzes traseiras</strong></label>
                             <div class="input-group mb-3">
-                                <select name="traseira" class="custom-select" style="background-color:transparent;" id="inputGroupSelect02">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                                <input type="text" id="mod" value="<?php echo $user['luzT'] ?>" style="border-bottom: 2px solid #27408B;" name="traseira" class="form-control">
                             </div>
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Luz de freio</strong></label>
                             <div class="input-group mb-3">
-
-                                <select name="freio" class="custom-select" id="inputGroupSelect03">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                                <input type="text" id="mod" value="<?php echo $user['luzF'] ?>" style="border-bottom: 2px solid #27408B;" name="freio" class="form-control">
                             </div>
                         </div>
 
@@ -145,25 +134,16 @@
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Pisca Alerta</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="alerta" class="custom-select" id="inputGroupSelect04">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                                <input type="text" id="mod" value="<?php echo $user['piscaA'] ?>" style="border-bottom: 2px solid #27408B;" name="alerta" class="form-control">
+                            
                             </div>
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Pisca Pisca Dianteiro(Direito/Esquerdo)</strong></label>
                             <div class="input-group mb-3">
-
-                                <select name="pisca"  class="custom-select" id="inputGroupSelect05">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                            <input type="text" id="mod" value="<?php echo $user['piscaD'] ?>" style="border-bottom: 2px solid #27408B;" name="pisca" class="form-control">
+                            
                             </div>
                         </div>
 
@@ -175,12 +155,8 @@
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Pisca Pisca Trazeiro(Direito/Esquerdo)</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="piscaT" class="custom-select" id="inputGroupSelect06">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                            <input type="text" id="mod" value="<?php echo $user['piscaT'] ?>" style="border-bottom: 2px solid #27408B;" name="piscaT" class="form-control">
+                            
                             </div>
                         </div>
 
@@ -188,12 +164,8 @@
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Alarme de ré</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="re" require="" class="custom-select" id="inputGroupSelect07">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                                <input type="text" id="mod" value="<?php echo $user['alarmeR'] ?>" style="border-bottom: 2px solid #27408B;" name="re" class="form-control">
+                            
                             </div>
                         </div>
 
@@ -205,25 +177,15 @@
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> Extintor de segurança</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="extintor" require="" class="custom-select" id="inputGroupSelect12">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                                <input type="text" id="mod" name="extintor" value="<?php echo $user['extintor'] ?>" style="border-bottom: 2px solid #27408B;" class="form-control">
+                            
                             </div>
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> Espelhos retrovisores</strong></label>
                             <div class="input-group mb-3">
-
-                                <select name="espelho" require="" class="custom-select" id="inputGroupSelect13">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                                <input type="text" id="mod" name="espelho" value="<?php echo $user['retrovisor'] ?>" style="border-bottom: 2px solid #27408B;" class="form-control">
                             </div>
                         </div>
 
@@ -232,43 +194,29 @@
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> Portas</strong></label>
-                            <div class="input-group mb-3">
 
-                                <select name="portas" require="" class="custom-select" id="inputGroupSelect18">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
-                            </div>
+                            <input type="text" id="mod" name="portas" value="<?php echo $user['portas'] ?>" style="border-bottom: 2px solid #27408B;" class="form-control">
+
+
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> Cinto de segurança</strong></label>
                             <div class="input-group mb-3">
+                                <input type="text" id="mod" name="cintoS" value="<?php echo $user['cinto'] ?>" style="border-bottom: 2px solid #27408B;" class="form-control">
 
-                                <select name="cintoS" require="" class="custom-select" id="inputGroupSelect19">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
                             </div>
                         </div>
 
                     </div>
+                    
                     <div class="row">
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Óleo</strong></label>
                             <div class="input-group mb-3">
+                                <input type="text" id="mod" name="oleo" value="<?php echo $user['oleo'] ?>" style="border-bottom: 2px solid #27408B;" class="form-control">
 
-                                <select name="oleo" require="" class="custom-select" id="inputGroupSelect18">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
                             </div>
                         </div>
 
@@ -276,12 +224,8 @@
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Gasolina</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="gasolina" require="" class="custom-select" id="inputGroupSelect19">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
+                                <input type="text" id="mod" name="gasolina" value="<?php echo $user['gasolina'] ?>" style="border-bottom: 2px solid #27408B;" class="form-control">
+
                             </div>
                         </div>
 
@@ -292,14 +236,14 @@
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> Responsável pela verificação</strong></label>
                             <div class="input-group mb-3">
-                                <input type="text" require="" name="responsavel" style="border-bottom: 2px solid #27408B;">
+                                <input type="text" name="responsavel" value="<?php echo $user['resp'] ?>" style="border-bottom: 2px solid #27408B;">
                             </div>
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> Técnico de segurança</strong></label>
                             <div class="input-group mb-3">
-                                <input type="text" require="" name="tecnico" style="border-bottom: 2px solid #27408B;">
+                                <input type="text" name="tecnico" value="<?php echo $user['tecnico'] ?>" style="border-bottom: 2px solid #27408B;">
                             </div>
                         </div>
 
@@ -310,7 +254,7 @@
                         <div class="col-sm-12 md-12 lg-12">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong>Operador/motorista</strong></label>
                             <div class="input-group mb-3">
-                                <input type="text" require="" name="operador" style="border-bottom: 2px solid #27408B;">
+                                <input type="text" name="operador" value="<?php echo $user['operador'] ?>" style="border-bottom: 2px solid #27408B;">
                             </div>
                         </div>
 
@@ -320,7 +264,7 @@
 
                         <div class="col-sm-12 md-12 lg-12">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> observações</strong></label>
-                            <textarea required="" name="obs" style="resize: none; height: 200px;">
+                            <textarea value="<?php echo $user['obs'] ?>" name="obs" style="resize: none; height: 200px;">
                                 
                             </textarea>                        
                         </div>
@@ -330,7 +274,7 @@
                     <div class="row">
 
                         <div class="col-sm-12 md-12 lg-12">
-                            <button class="btn btn-block text-white" style="background-color:#27408B;">SALVAR</button>                    
+                            <button type="submit" class="btn btn-block text-white" style="background-color:#27408B;">SALVAR</button>                    
                         </div>
 
                     </div>
@@ -341,7 +285,9 @@
         </div>
     </div>  
 
-
+    <?php
+        include_once 'footer.php';
+    ?>
 
 
 </body>

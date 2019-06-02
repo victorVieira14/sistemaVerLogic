@@ -30,31 +30,25 @@
 
 
         <div class="row">
-            <div class="col-sm-6 md-6 lg-6">
+            <div class="col-sm-12 md-12 lg-12">
                 <figure class="figure" style="display: flex; justify-content: center;">
                     <a href="form-car.php"><img src="img/carro2.png" alt="carro" width="300" height="300"></a>
                 </figure>
             </div>
 
 
-            <div class="col-sm-6 md-6 lg-6">
+            <div class="col-sm-12 md-12 lg-12">
                 <figure class="figure" style="display: flex; justify-content: center;">
                     <a href="form-motocyber.php"><img src="img/moto2.png" width="300" height="300" class="rounded mx-auto d-block" alt="...">
                 </figure>
             </div>
-        </div>
-        <div class="row"> 
-            <div class="col-sm-6 md-6 lg-6">
+
+            <div class="col-sm-12 md-12 lg-12">
                 <figure class="figure" style="display: flex; justify-content: center;">
                     <a href="form-truck.php"><img src="img/caminhao2.png" alt="caminhao" width="300" height="300"></a>
                 </figure>
             </div>
 
-            <div class="col-sm-6 md-6 lg-6">
-                <figure class="figure" style="display: flex; justify-content: center;">
-                    <a href="form-truck.php"><img src="img/aviao.png" alt="aviao" width="300" height="300"></a>
-                </figure>
-            </div>
         </div>
     </main>
     
