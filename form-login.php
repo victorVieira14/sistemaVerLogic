@@ -71,10 +71,13 @@
                         </div>
                     <?php }unset($_SESSION['email_senha']); ?>
 
-                    <div class="col-sm-12 md-12 lg-12 text-center">
+                    <div class="col-sm-12 md-12 lg-12 text-center mb-3">
                         <input type="submit" class="btn mt-2 text-center text-white" style="background-color:#27408B;" value="Entrar">
                     </div>
-                        
+
+
+                    <div class="display-5 text-center"><a href="form-add.php" style="color:#27408B;text-decoration: none;" class="h5">Não é cadastrado? <b>cadastre-se</b></a></div>
+  
                 </div>
             </form>
         </div>
