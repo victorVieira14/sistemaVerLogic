@@ -109,7 +109,7 @@
 			<div class="container-fluidx" >
 
 				
-			<div class="container-fluid background text-center mb-5" style="height: 100%; background-color: #27408B; position:relative; left:0; top:0; width:100%; background-repeat: no-repeat;">
+			<div class="container-fluid background text-center mb-3" style="height: 100%; background-color: #27408B; position:relative; left:0; top:0; width:100%; background-repeat: no-repeat;">
 					
 				<div class="" style="display:hidden; height:150px;"></div>
 
