@@ -42,7 +42,7 @@
                                     <td class='text-center'>{$linha['dataInsp']}</td>
 
                                     <td>
-                                    <a href='form-edit-car.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-primary text-center'>EDITAR</button></a>
+                                    <a href='form-edit-car.php?id={$linha['id']}'><button type='button' class='btn text-white btn-sm text-center' style='background-color: #27408B;'>EDITAR</button></a>
                                     <a href='deleteCar.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-danger text-center'>EXCLUIR</button></a>
                             </td>
                                 </tr>
