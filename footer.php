@@ -12,7 +12,7 @@
 	<script type="text/javascript" src="js/all.min.js"></script>
 	<script type="text/javascript" src="js/fontawesome.min.js"></script>
 
-	<footer class="blog-footer mt-5">
+	<footer class="blog-footer mt-3">
 		<p>Checklist template built for <a href="#!" style="text-decoration:none;">Ver Logic</a> by <a href="https://www.facebook.com/profile.php?id=100010929275157" style="text-decoration:none;" target='_blank'>Victor Vieira</a>.</p>
 		<p>
 			<a href="#">Back to top</a>
