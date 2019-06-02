@@ -184,37 +184,6 @@
                     <div class="row">
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Sistema de Partida</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="partida" class="custom-select" id="inputGroupSelect08">
-                                    <option selected disabled="">Informe</option>
-                                    
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Lanternas traseiras(seta)</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="lantTraseiras" class="custom-select" id="inputGroupSelect09">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="OK">OK</option>
-                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
-                                    <option value="NAO_INFORMADO">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> Extintor de segurança</strong></label>
                             <div class="input-group mb-3">
 
@@ -333,7 +302,7 @@
 
                         <div class="col-sm-12 md-12 lg-12">
                             <label for="text" style="font-size:1em; color:#27408B;"><strong> observações</strong></label>
-                            <textarea style="resize: none; height: 200px;">
+                            <textarea name="obs" style="resize: none; height: 200px;">
                                 
                             </textarea>                        
                         </div>
