@@ -35,10 +35,10 @@
                         while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) {
                             echo "
                                 <tr>
-                                    <td class='text-center' style='font-size:20px;'><a href='mostrarInforCar.php?id={$linha['id']}'style='text-decoration:none;'>{$linha['id']}</a></td>
-                                    <td class='text-center' style='font-size:20px;'>{$linha['modfab']}</td>
-                                    <td class='text-center' style='font-size:20px;'>{$linha['resp']}</td>
-
+                                    <td class='text-center'><h1 class='display-4' style='font-size: 23px;'><a href='mostrarInforCar.php?id={$linha['id']}'style='text-decoration:none;'>{$linha['id']}</a></td>
+                                    <td class='text-center'><h1 class='display-4' style='font-size: 23px;'>{$linha['modfab']}</td>
+                                    <td class='text-center'><h1 class='display-4' style='font-size: 23px;'>{$linha['resp']}</td>
+                                    
                                     <td>
                                     <a href='form-edit-car.php?id={$linha['id']}'><button type='button' class='btn text-white btn-sm text-center' style='background-color: #27408B;'>EDITAR</button></a>
                                     <a href='deleteCar.php?id={$linha['id']}'><button type='button' class='btn btn-sm btn-danger text-center'>EXCLUIR</button></a>

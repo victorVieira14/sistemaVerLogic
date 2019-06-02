@@ -132,7 +132,6 @@
 					<ul id="nav-mobile" class="left hide-on-med-and-down" style="position:relative;">
 						<li class="active"><a id="m1" href="paginaLogado.php">Home</a></li>
 						<li><a id="m2" href="veiculos.php">Veículos</a></li>
-						<li><a id="m2" href="#">Cadastrar Veículo</a></li>
 						<li><a id="m3" href="#"></a></li>
 						<li><a href="#" class="nav-content"><i class="fas fa-user"></i></a></li>
 					</ul>
@@ -153,7 +152,6 @@
 					</div></li>
 					<li><a href="paginaLogado.php"><i class="fas fa-home"></i>        Home</a></li>
 					<li><a href="veiculos.php"><i class="fas fa-car"></i>        Veículos</a></li>
-					<li><a href="#!"><i class="fas fa-car"></i>        Cadastrar Veículo</a></li>
 					<li><a class="waves-effect" href="index.php"><i class="fas fa-clipboard-list"></i>         Checklist</a></li>
 					<li><div class="divider"></div></li>
 					<li><a class="waves-effect" href="logout.php"><i class="fas fa-sign-out-alt"></i> Sign out </a></li>

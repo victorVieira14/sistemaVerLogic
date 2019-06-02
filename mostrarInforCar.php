@@ -69,7 +69,7 @@
                         <form method="POST">
                             <div class="card p-4">
 
-                                <a href="paginaLogado.php" class="btn btn-light mr-auto" data-toggle="tooltip" data-placement="bottom" title="Voltar">
+                                <a href="listaCar.php" class="btn btn-light mr-auto" data-toggle="tooltip" data-placement="bottom" title="Voltar">
                                     <i class="fa fa-arrow-left"></i>
                                 </a>
 
@@ -113,7 +113,126 @@
                                         </div>
                                     </div>
 
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Luz frontal: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['luzF'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Pisca alerta: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['piscaA'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Pisca dianteiro:
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['piscaD'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Pisca Traseiro:
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['piscaT'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                
+                                <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Alarme de ré: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['alarmeR'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Extintor: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['extintor'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Espelhos retrovisores:
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['retrovisor'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Cinto:
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['cinto'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                    </div>
+                                
+                                <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Óleo: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['oleo'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Gasolina: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['gasolina'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Responsável:
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['resp'] ?>" name="modelo">
+
+                                            </h1>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Técnico:
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['tecnico'] ?>">
+
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Operador: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['operador'] ?>">
+
+                                            </h1>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                                            <h1 class="display-4" style="font-size: 25px;">
+                                                Observações: 
+                                                <input class="text-center" style="border:none;" type="text" value="<?php echo $user['obs'] ?>">
+
+                                            </h1>
+                                        </div>
+                                    </div>
+
                             </div>
                         </form>
                     </div>
