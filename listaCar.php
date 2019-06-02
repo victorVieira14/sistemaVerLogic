@@ -21,7 +21,6 @@
                         <th class="text-center">Codigo</th>
                         <th class="text-center">Modelo/fabricante</th>
                         <th class="text-center">Responsável</th>
-                        <th class="text-center">Data de inspeção</th>
                         <th></th>
                     </tr>
                 </thead>                
@@ -36,10 +35,9 @@
                         while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) {
                             echo "
                                 <tr>
-                                    <td class='text-center'>{$linha['id']}</td>
-                                    <td class='text-center'>{$linha['modfab']}</td>
-                                    <td class='text-center'>{$linha['resp']}</td>
-                                    <td class='text-center'>{$linha['dataInsp']}</td>
+                                    <td class='text-center' style='font-size:20px;'><a href='mostrarInforCar.php?id={$linha['id']}'style='text-decoration:none;'>{$linha['id']}</a></td>
+                                    <td class='text-center' style='font-size:20px;'>{$linha['modfab']}</td>
+                                    <td class='text-center' style='font-size:20px;'>{$linha['resp']}</td>
 
                                     <td>
                                     <a href='form-edit-car.php?id={$linha['id']}'><button type='button' class='btn text-white btn-sm text-center' style='background-color: #27408B;'>EDITAR</button></a>
