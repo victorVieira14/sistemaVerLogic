@@ -141,11 +141,10 @@ require 'init.php';
 				<nav class="fixed-top"  id="menu" style="background-color:#293039">
 
 
-					<ul id="nav-mobile" class="left hide-on-med-and-down">
-						<li class="active"><a id="m1" href="#">Home</a></li>
+				<ul id="nav-mobile" class="left hide-on-med-and-down" style="position:relative;">
+						<li class="active"><a id="m1" href="paginaLogado.php">Home</a></li>
 						<li><a id="m2" href="veiculos.php">Veículos</a></li>
-						<li><a id="m3" href="#"></a></li>
-						<li><a href="#" class="nav-content"><i class="fas fa-user"></i></a></li>
+						<li><a class="d-flex ml-auto" href="form-login.php">Sign out</a></li>
 					</ul>
 
 				<ul id="slide-out" class="sidenav">
@@ -176,6 +175,49 @@ require 'init.php';
 			</div>
 	</header>
 	<!-- menu do usuario logado -->
+
+	<main role="main" class="container-fluid">
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading"><span><i style="color:#27408B;">Monte sua própria checklist</i></span></h2>
+        <p class="lead text-center text-black"><b>Sua organização é muito importante no dia a dia, aqui você pode organizar-se de forma mais efetiva e menos trabalhosa</b></p>
+      </div>
+      <div class="col-md-5 center">
+        <img src="img/checklist.jpg" class="img-fluid mx-auto" width="500" height="500" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"><span><i style="color:#27408B;">Cadastre veículos</i> </span></h2>
+        <p class="lead text-center text-black"><b>Cadastrando seu veículo aqui, seus dados estarão seguros e longe de ameaças que destruam as suas informações.</b></p>
+      </div>
+      <div class="col-md-5 order-md-1 center">
+          <img src="img/fusca.jpg" class="img-fluid mx-auto" width="500" height="500" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+
+</main>
+
+		<?php
+
+			include_once 'footer.php';
+
+		?>
+
 
 
 

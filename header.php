@@ -132,9 +132,10 @@
 					<ul id="nav-mobile" class="left hide-on-med-and-down" style="position:relative;">
 						<li class="active"><a id="m1" href="paginaLogado.php">Home</a></li>
 						<li><a id="m2" href="veiculos.php">Veículos</a></li>
-						<li><a id="m3" href="#"></a></li>
+						<li><a id="m3" href="form-login.php">Sign out</a></li>
 						<li><a href="#" class="nav-content"><i class="fas fa-user"></i></a></li>
 					</ul>
+
 
 				<ul id="slide-out" class="sidenav">
 					
