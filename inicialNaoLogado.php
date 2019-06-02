@@ -47,7 +47,7 @@
       <div class="col-md-7">
         <h2 class="featurette-heading "><span><i style="color:#27408B;">Cadastre-se na VerLogic</i></span></h2>
         <p class="lead text-center text-black"><b>Com o seu cadastro feito, você poderá ter acesso aos dados que nossa empresa oferece a você</b>  </p>
-        <a style="text-decoration:none; color:white;" href="form-add.php"><button type="button" class="btn btn-block text-white" style="background-color:#27408B;">CADASTRE-SE</button></a>
+        <a style="text-decoration:none; color:white;" href="form-add.php"><button type="button" class="btn btn-block text-white mb-4" style="background-color:#27408B;">CADASTRE-SE</button></a>
       </div>
       <div class="col-md-5">
           <img src="img/feliz.jpg" class="img-fluid mx-auto" width="500" height="500" />
