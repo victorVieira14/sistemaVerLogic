@@ -76,7 +76,7 @@
                     </div>
 
 
-                    <div class="display-5 text-center"><a href="form-add.php" style="color:#27408B;text-decoration: none;" class="h5">Não é cadastrado? <b>cadastre-se</b></a></div>
+                    <div class="display-5 mb-5 text-center"><a href="form-add.php" style="color:#27408B;text-decoration: none;" class="h5">Não é cadastrado? <b>cadastre-se</b></a></div>
   
                 </div>
             </form>

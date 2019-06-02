@@ -86,13 +86,16 @@
 
 
 			<div class="input-group-prepend mb-3">
-				<input type="submit" class="btn mx-auto mb-3 text-white" style="background-color:#27408B;" name="bt">
+				<input type="submit" class="btn mx-auto mb-2 text-white" style="background-color:#27408B;" name="bt">
 			</div>
 
 
-			<div class="display-5 text-center"><a href="form-login.php" style="color:#27408B;text-decoration: none;" class="h5">Já está cadastrado? <b>Faça o seu login</b></a></div>
+			
 		</form>
 	</div>
+	<div class="display-5 text-center mb-4"><a href="form-login.php" style="color:#27408B;text-decoration: none;" class="h5">Já está cadastrado? <b>Faça o seu login</b></a></div>
+	<div style="display:hidden; height: 30px;"></div>
+
 
 	<?php 
 		include_once 'footer.php';
