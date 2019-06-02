@@ -34,7 +34,7 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading"><span><i style="color:#27408B;">Cadastre veículos</i> </span></h2>
-        <p class="lead text-black">Cadastrando seu veículo aqui, seus dados estarão seguros e longe de ameaças que destruam as suas informações.</p>
+        <p class="lead text-black"><b>Cadastrando seu veículo aqui, seus dados estarão seguros e longe de ameaças que destruam as suas informações.</b></p>
       </div>
       <div class="col-md-5 order-md-1 center">
           <img src="img/fusca.jpg" class="img-fluid mx-auto" width="500" height="500" />
@@ -46,7 +46,7 @@
     <div class="row featurette center">
       <div class="col-md-7">
         <h2 class="featurette-heading "><span><i style="color:#27408B;">Cadastre-se na VerLogic</i></span></h2>
-        <p class="lead text-center text-black">Com o seu cadastro feito, você poderá ter acesso aos dados que nossa empresa oferece a você</p>
+        <p class="lead text-center text-black"><b>Com o seu cadastro feito, você poderá ter acesso aos dados que nossa empresa oferece a você</b>  </p>
         <a style="text-decoration:none; color:white;" href="form-add.php"><button type="button" class="btn btn-block text-white" style="background-color:#27408B;">CADASTRE-SE</button></a>
       </div>
       <div class="col-md-5">
