@@ -24,7 +24,7 @@
 
 	$conn = db_connect();
 
-	$sql = "INSERT INTO carro(modfab, dataInsp, luzD, luzT, luzF,piscaA, piscaD, piscaT, alarmeR, extintor, retrovisor, portas, cinto, oleo, gasolina, resp, tecnico, operador, obs) 
+	$sql = "INSERT INTO caminhao(modfab, dataInsp, luzD, luzT, luzF,piscaA, piscaD, piscaT, alarmeR, extintor, retrovisor, portas, cinto, oleo, gasolina, resp, tecnico, operador, obs) 
     VALUES
     (:MODELO, :INSP, :DIANT, :TRAZ, :FREIO, :ALERT, :PISCA, :PISCAT, :RE, :EXT, :ESP, :PORTA, :CINTO, :OLEO, :GAS, :RESP, :TEC, :OP, :OBS)";
 
@@ -56,7 +56,7 @@
 
 
 	if ($stmt->execute()) {
-		Header('Location: form-car.php');
+		Header('Location: form-truck.php');
 	}else{
 		echo "erro ao cadastrar";
 		print_r($stmt->errorInfo());

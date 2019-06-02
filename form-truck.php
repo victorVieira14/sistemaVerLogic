@@ -52,10 +52,10 @@
         
         
 
-        <div id="escrever" class="h1 text-center mt-5">CHECKLIST CAR   <img src="img/carro2.png" alt="carro" width="300" height="300"></div>
+        <div id="escrever" class="h1 text-center mt-5">CHECKLIST TRUCK   <img src="img/caminhao2.png" alt="carro" width="300" height="300"></div>
 
 
-            <form method="post" class="form-group" action="addCheckCar.php">
+            <form method="post" class="form-group" action="addCheckTruck.php">
                 
                 <table class="table">
 
