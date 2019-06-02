@@ -22,7 +22,7 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading"><span><i style="color:#27408B;">Monte sua própria checklist</i></span></h2>
-        <p class="lead text-black"><b>Sua organização é muito importante no dia a dia, aqui você pode organizar-se de forma mais efetiva e menos trabalhosa</b></p>
+        <p class="lead text-center text-black"><b>Sua organização é muito importante no dia a dia, aqui você pode organizar-se de forma mais efetiva e menos trabalhosa</b></p>
       </div>
       <div class="col-md-5 center">
         <img src="img/checklist.jpg" class="img-fluid mx-auto" width="500" height="500" />
@@ -34,7 +34,7 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading"><span><i style="color:#27408B;">Cadastre veículos</i> </span></h2>
-        <p class="lead text-black"><b>Cadastrando seu veículo aqui, seus dados estarão seguros e longe de ameaças que destruam as suas informações.</b></p>
+        <p class="lead text-center text-black"><b>Cadastrando seu veículo aqui, seus dados estarão seguros e longe de ameaças que destruam as suas informações.</b></p>
       </div>
       <div class="col-md-5 order-md-1 center">
           <img src="img/fusca.jpg" class="img-fluid mx-auto" width="500" height="500" />

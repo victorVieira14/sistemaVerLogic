@@ -55,7 +55,7 @@
         <div id="escrever" class="h1 text-center mt-5">CHECKLIST CAR   <img src="img/carro2.png" alt="carro" width="300" height="300"></div>
 
 
-            <form method="post" class="form-group" action="">
+            <form method="post" class="form-group" action="addCheckCar.php">
                 
                 <table class="table">
 
@@ -76,14 +76,16 @@
                             <input type="date" id="data" style="border-bottom: 2px solid #27408B;" name="inspecao" class="form-control">
                         </div>
 
+                        
+
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="data" style="font-size:1em; color:#27408B;"><strong> Porta malas</strong></label>
+                            <label for="data" style="font-size:1em; color:#27408B;"><strong>Luzes dianteira</strong></label>
                             <div class="input-group mb-3">
-                                <select name="portaM" class="custom-select mt-2" id="inputGroupSelect01">
+                                <select name="dianteira" class="custom-select mt-2" id="inputGroupSelect01">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
@@ -93,56 +95,26 @@
                     <div class="row">
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Freio de pé</strong></label>
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Luzes traseiras</strong></label>
                             <div class="input-group mb-3">
-                                <select name="freioPe" class="custom-select" style="background-color:transparent;" id="inputGroupSelect02">
+                                <select name="traseira" class="custom-select" style="background-color:transparent;" id="inputGroupSelect02">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Motor de partida</strong></label>
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Luz de freio</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="motor" class="custom-select" id="inputGroupSelect03">
+                                <select name="freio" class="custom-select" id="inputGroupSelect03">
                                     <option selected disabled="">Informe</option>
-                                    <option value="2">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Limpador de para brisa</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="limpador" class="custom-select" id="inputGroupSelect04">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Lavador de para brisa</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="lavador" class="custom-select" id="inputGroupSelect05">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
@@ -152,27 +124,27 @@
                     <div class="row">
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Buzina</strong></label>
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Pisca Alerta</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="buzina" class="custom-select" id="inputGroupSelect06">
+                                <select name="alerta" class="custom-select" id="inputGroupSelect04">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Faróis</strong></label>
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Pisca Pisca Dianteiro(Direito/Esquerdo)</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="farol" class="custom-select" id="inputGroupSelect07">
+                                <select name="pisca" class="custom-select" id="inputGroupSelect05">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
@@ -182,14 +154,45 @@
                     <div class="row">
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Lanternas dianteiras(seta)</strong></label>
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Pisca Pisca Trazeiro(Direito/Esquerdo)</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="lantDianteiras" class="custom-select" id="inputGroupSelect08">
+                                <select name="piscaT" class="custom-select" id="inputGroupSelect06">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 md-6 lg-6">
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Alarme de ré</strong></label>
+                            <div class="input-group mb-3">
+
+                                <select name="re" class="custom-select" id="inputGroupSelect07">
+                                    <option selected disabled="">Informe</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-sm-6 md-6 lg-6">
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Sistema de Partida</strong></label>
+                            <div class="input-group mb-3">
+
+                                <select name="partida" class="custom-select" id="inputGroupSelect08">
+                                    <option selected disabled="">Informe</option>
+                                    
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
@@ -200,39 +203,9 @@
 
                                 <select name="lantTraseiras" class="custom-select" id="inputGroupSelect09">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Luz de freio</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="freio" class="custom-select" id="inputGroupSelect10">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Luz de ré</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="re" class="custom-select" id="inputGroupSelect11">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
@@ -247,9 +220,9 @@
 
                                 <select name="extintor" class="custom-select" id="inputGroupSelect12">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
@@ -260,75 +233,14 @@
 
                                 <select name="espelho" class="custom-select" id="inputGroupSelect13">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
 
                     </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Indicadores de painel</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="painel" class="custom-select" id="inputGroupSelect14">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Condições dos pneus</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="pneu" class="custom-select" id="inputGroupSelect15">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Pneu estepe</strong></label>
-                            <div class="input-group mb-3">
- 
-                                <select name="estepe" class="custom-select" id="inputGroupSelect16">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Vidros</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="vidro" class="custom-select" id="inputGroupSelect17">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
                     <div class="row">
 
                         <div class="col-sm-6 md-6 lg-6">
@@ -337,9 +249,9 @@
 
                                 <select name="portas" class="custom-select" id="inputGroupSelect18">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
@@ -350,134 +262,43 @@
 
                                 <select name="cintoS" class="custom-select" id="inputGroupSelect19">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
 
                     </div>
-
                     <div class="row">
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Macaco</strong></label>
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Óleo</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="macaco" class="custom-select" id="inputGroupSelect20">
+                                <select name="oleo" class="custom-select" id="inputGroupSelect18">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Chave de roda</strong></label>
+                            <label for="text" style="font-size:1em; color:#27408B;"><strong>Gasolina</strong></label>
                             <div class="input-group mb-3">
 
-                                <select name="chave" class="custom-select" id="inputGroupSelect21">
+                                <select name="gasolina" class="custom-select" id="inputGroupSelect19">
                                     <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
+                                    <option value="OK">OK</option>
+                                    <option value="NAO_ESTA_EM_BOM_ESTADO">Não está em bom estado</option>
+                                    <option value="NAO_INFORMADO">Não informado</option>
                                 </select>
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Nível de óleo</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="oleo" class="custom-select" id="inputGroupSelect22">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
                         </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Chave de roda</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="chave" class="custom-select" id="inputGroupSelect23">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Nível fluido de freio</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="nFluido" class="custom-select" id="inputGroupSelect24">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Nível de água</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="agua" class="custom-select" id="inputGroupSelect25">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Ruído interno</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="ruido" class="custom-select" id="inputGroupSelect26">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 md-6 lg-6">
-                            <label for="text" style="font-size:1em; color:#27408B;"><strong> Lataria</strong></label>
-                            <div class="input-group mb-3">
-
-                                <select name="lataria" class="custom-select" id="inputGroupSelect27">
-                                    <option selected disabled="">Informe</option>
-                                    <option value="1">OK</option>
-                                    <option value="2">Não está em bom estado</option>
-                                    <option value="3">Não informado</option>
-                                </select>
-                            </div>
-                        </div>
-
-                    </div>
 
                     <div class="row">
 
