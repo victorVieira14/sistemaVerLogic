@@ -7,6 +7,7 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
+      <link rel="icon" type="text/css" href="img/LOGOcompleto.png">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">

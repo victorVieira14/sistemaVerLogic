@@ -56,7 +56,7 @@
 
 
 	if ($stmt->execute()) {
-		Header('Location: form-truck.php');
+		Header('Location: listaCaminhao.php');
 	}else{
 		echo "erro ao cadastrar";
 		print_r($stmt->errorInfo());

@@ -22,6 +22,15 @@
 			$(".btn").sidenav();
 		});
 	</script>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mask.js"></script>
+	
+	<script>
+		$('#tel').mask('(00) 00000-0000');
+		$('#cnpj').mask('00.000.000/0000-00');
+	</script>
+
 
 </body>
 </html>

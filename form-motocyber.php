@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Ver Logic</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="text/css" href="img/LOGOcompleto.png">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="materialize/css/materialize.min.css"/>
     <style type="text/css">

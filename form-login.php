@@ -5,6 +5,7 @@
         <meta charset="utf-8">
  
         <title>Login</title>
+    <link rel="icon" type="text/css" href="img/LOGOcompleto.png">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     </head>
  

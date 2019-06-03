@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Cadastro</title>
+	
+    <link rel="icon" type="text/css" href="img/LOGOcompleto.png">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style type="text/css">
@@ -39,8 +41,8 @@
 						<div class="input-field col s6">
 
 							<i class="material-icons prefix fas fa-phone-square mt-2" style="color:#27408B;"></i>
-							<input name="telefone" id="icon_prefix_tel" type="text" require="" class="validate">
-							<label for="icon_prefix_tel" style="font-size:20px;">Telefone</label>
+							<input name="telefone" id="tel" type="text" require="" class="validate">
+							<label for="tel" style="font-size:20px;">Telefone</label>
 						</div>
 					</div>
 				</div>
@@ -71,8 +73,8 @@
 						<div class="input-field col s12">
 
 							<i class="material-icons prefix fas fa-id-card-alt mt-2" style="color:#27408B;"></i>
-							<input name="cnpj" id="icon_prefix_cnpj" type="text" class="validate">
-							<label for="icon_prefix_cnpj" style="font-size:20px;">CNPJ</label>
+							<input name="cnpj" id="cnpj" type="text" class="validate">
+							<label for="cnpj" style="font-size:20px;">CNPJ</label>
 						</div>
 
 					</div>

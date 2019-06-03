@@ -21,7 +21,7 @@
 	$stmt->bindParam(':CNPJ', $cnpj);
 
 	if ($stmt->execute()) {
-		Header('Location: form-add.php');
+		Header('Location: form-login.php');
 	}else{
 		echo "erro ao cadastrar";
 		print_r($stmt->erroInfo());
