@@ -17,14 +17,12 @@
         <form method="post" class="container-fluid">   
             <table>
                 <tr>
-                    <a href="listaCar.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B; font-family: Aeroshodic"><i class="display-5">Listar carros</i></button></a>
+                    <a href="listaCar.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B;"><span class="text-center"><i class="fas fa-car" style="font-size:3em;"></i><h1 class="display-4" style="font-size:25px;">Listar Carros</h1></span></button></a>
                 </tr>
                 <tr>
-                    <a href="listaCaminhao.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B; font-family:  Aeroshodic"><i class="display-5">Listar caminhões</i></button></a>
-                </tr>
+                    <a href="listaCaminhao.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B;"><span class="text-center"><i class="fas fa-truck" style="font-size:3em;"></i><h1 class="display-4" style="font-size:25px;">Listar caminhões</h1></span></button></a>                </tr>
                 <tr>
-                    <a href="listaMoto.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B; font-family: Aeroshodic"><i class="display-5">Listar motos</i></button></a>
-                </tr>
+                <a href="listaMoto.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B;"><span class="text-center"><i class="fas fa-motorcycle" style="font-size:3em;"></i><h1 class="display-4" style="font-size:25px;">Listar motos</h1></span></button></a>                </tr>
             </table> 
             
         </form>
