@@ -23,7 +23,7 @@
                     <a href="listaCaminhao.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B; font-family:  Aeroshodic"><i class="display-5">Listar caminhões</i></button></a>
                 </tr>
                 <tr>
-                    <a style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B; font-family: Aeroshodic"><i class="display-5">Listar motos</i></button></a>
+                    <a href="listaMoto.php" style="text-decoration: none;" ><button type="button" class="btn text-white btn-lg btn-block mb-3 h-100" style="background-color:#27408B; font-family: Aeroshodic"><i class="display-5">Listar motos</i></button></a>
                 </tr>
             </table> 
             
