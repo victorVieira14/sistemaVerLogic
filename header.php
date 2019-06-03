@@ -132,7 +132,7 @@
 					<ul id="nav-mobile" class="left hide-on-med-and-down" style="position:relative;">
 						<li class="active"><a id="m1" href="paginaLogado.php">Home</a></li>
 						<li><a id="m2" href="veiculos.php">Veículos</a></li>
-						<li><a id="m2" href="veiculos.php">Checklist</a></li>
+						<li><a id="m2" href="index.php">Checklist</a></li>
 						<li><a id="m3" href="form-login.php">Sign out</a></li>
 					</ul>
 
