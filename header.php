@@ -143,7 +143,7 @@
 					<div class="background">
 						<img src="img/fundoSide.jpg" class="w-100 d-flex flex-column">
 					</div>
-					<a href="editaInforUser.php"><img class="circle" src="img/user.jpg"></a>
+					<a href="editaInforUser.php"><img class="circle" src="img/user3.jpg"></a>
 					<a href="#nome"><span class="white-text name"><?php echo $_SESSION['user_name']; ?></span></a>
 					<a href="#email"><span class="white-text email"><?php echo $_SESSION['user_email']; ?></span></a>
 					</span></a>

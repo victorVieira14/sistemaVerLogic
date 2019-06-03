@@ -35,7 +35,7 @@
                         while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) {
                             echo "
                                 <tr>
-                                    <td class='text-center'><h1 class='display-4' style='font-size: 23px;'><a href='mostrarInforCar.php?id={$linha['id']}'style='text-decoration:none;'>{$linha['id']}</a></td>
+                                    <td class='text-center'><h1 class='display-4' style='font-size: 23px;'><a href='mostrarInforTruck.php?id={$linha['id']}'style='text-decoration:none;'>{$linha['id']}</a></td>
                                     <td class='text-center'><h1 class='display-4' style='font-size: 23px;'>{$linha['modfab']}</td>
                                     <td class='text-center'><h1 class='display-4' style='font-size: 23px;'>{$linha['resp']}</td>
                                     

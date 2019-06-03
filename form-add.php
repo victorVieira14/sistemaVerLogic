@@ -29,11 +29,6 @@
 			<div class="row">
 
 				<div class="col-sm-12 md-12 lg-12">
-					<img src="img/user.jpg" width="250" height="250" class="circle mx-auto d-block mx-auto mb-5" alt="usuario" title="Adicionar foto">
-				</div>
-
-
-				<div class="col-sm-12 md-12 lg-12">
 					<div class="row">
 						<div class="input-field col s6">
 
@@ -94,7 +89,7 @@
 		</form>
 	</div>
 	<div class="display-5 text-center mb-4"><a href="form-login.php" style="color:#27408B;text-decoration: none;" class="h5">Já está cadastrado? <b>Faça o seu login</b></a></div>
-	<div style="display:hidden; height: 30px;"></div>
+	<div style="display:hidden; height: 20px;"></div>
 
 
 	<?php 
